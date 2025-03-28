@@ -1,0 +1,19 @@
+body {
+    background-image: url(../images/background.jpg);
+    background-size: 100%;
+}
+.planet {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.blackhole {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background-image: url('../images/explodingplanet.gif');
+    background-size: cover;
+    pointer-events: none;
+    z-index: 1000;
+    border-radius: 100%;
+}
